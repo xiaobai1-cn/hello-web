@@ -1,12 +1,6 @@
 # hello-web
 
-绗?0 鍛ㄩ獙鏀堕」鐩細鐢?Git 绠＄悊銆侀€氳繃 GitHub Pages 涓婄嚎銆?
-- 椤甸潰锛歨ttps://xiaobai1-cn.github.io/hello-web/
-- 瀛﹀埌锛欸it 鍩烘湰娴佺▼銆丼SH 鍏嶅瘑鎺ㄩ€併€侀潤鎬侀〉闈㈤儴缃?'@
+第 0 周验收项目：用 Git 管理、通过 GitHub Pages 上线。
 
-$gitignore = @'
-node_modules/
-.DS_Store
-Thumbs.db
-*.log
-.env
+- 页面：https://xiaobai1-cn.github.io/hello-web/
+- 学到：Git 基本流程、SSH 免密推送、静态页面部署
