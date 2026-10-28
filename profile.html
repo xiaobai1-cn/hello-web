@@ -10,7 +10,10 @@
 
   <header>
     <h1>冯雪豪</h1>
-    <img src="10.26.jpg" alt="冯雪豪的头像" width="120">
+        <figure>
+      <img src="10.26.jpg" alt="冯雪豪的头像" width="120">
+      <figcaption>2026 年 10 月，开始学前端</figcaption>
+    </figure>
     <nav>
       <a href="#about">关于</a>
       <a href="#skills">技能</a>
@@ -19,20 +22,60 @@
   </header>
 
   <main>
-    <section id="about">
+        <article id="about">
       <h2>关于我</h2>
       <p>正在学习前端开发，目标是能独立完成一个全栈项目。</p>
-    </section>
+      <p>目前在第 1 周，正在用 HTML 搭建自己的第一个页面。</p>
+    </article>
 
-    <section id="skills">
+        <section id="skills">
       <h2>技能</h2>
-      <ul>
-        <li>HTML 语义化</li>
-        <li>CSS 基础</li>
-        <li>Git 版本管理</li>
-      </ul>
-    </section>
+      <dl>
+        <dt>HTML</dt>
+        <dd>能写语义化结构，理解表单与可访问性</dd>
 
+        <dt>CSS</dt>
+        <dd>刚开始学，还没写样式</dd>
+
+        <dt>Git</dt>
+        <dd>能完成提交与推送到远程仓库</dd>
+      </dl>
+    </section>
+        <section id="progress">
+      <h2>学习进度</h2>
+
+      <table>
+        <caption>2026 年学习进度（第 1 周）</caption>
+        <thead>
+          <tr>
+            <th scope="col">周次</th>
+            <th scope="col">主题</th>
+            <th scope="col">状态</th>
+            <th scope="col">完成日期</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>第 1 周</td>
+            <td>HTML 语义与表单</td>
+            <td>进行中</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>第 2 周</td>
+            <td>CSS 盒模型与排版</td>
+            <td>未开始</td>
+            <td>—</td>
+          </tr>
+          <tr>
+            <td>第 3 周</td>
+            <td>Flex 与 Grid 布局</td>
+            <td>未开始</td>
+            <td>—</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
     <section id="contact">
       <h2>联系我</h2>
       <form action="#" method="get">
@@ -53,9 +96,15 @@
     </section>
   </main>
 
-  <footer>
+  
+      <footer>
     <p>© 2026 冯雪豪</p>
+    <p>
+      参考文档：
+      <a href="https://developer.mozilla.org/zh-CN/" target="_blank" rel="noopener noreferrer">MDN 中文</a>
+    </p>
   </footer>
+  
 
 </body>
 </html>
