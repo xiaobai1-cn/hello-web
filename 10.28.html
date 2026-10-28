@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>个人主页</title>
+</head>
+
+<body>
+    <header>
+        <h1>冯雪豪</h1>
+        <nav>
+            <a href="#about">关于</a>
+            <a href="#skills">技能</a>
+            <a href="#contact">联系</a>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>关于我</h2>
+            <p>
+                这是我的第一个上线页面。
+            </p>
+            <figure>
+                <img src="10.26.jpg" alt="冯雪豪的头像" width="200">
+                <figcaption>2026 年 10 月，开始学前端</figcaption>
+            </figure>
+        </section>
+        <section id="skills">
+            <h2>
+                技能
+            </h2>
+            <dl>
+                <dt>HTML</dt>
+                <dd>能写语义化结构，理解表单与可访问性</dd>
+
+                <dt>CSS</dt>
+                <dd>刚开始学，还没写样式</dd>
+
+                <dt>Git</dt>
+                <dd>能完成提交与推送到远程仓库</dd>
+            </dl>
+
+        </section>
+        <table border="2">
+            <caption>学习进度表</caption>
+            <thead>
+                <tr>
+                    <th scope="col">周次</th>
+                    <th scope="col">主题</th>
+                    <th scope="col">状态</th>
+                    <th scope="col">完成日期</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>第1周</td>
+                    <td>html</td>
+                    <td>进行中</td>
+                    <td>10.26</td>
+                </tr>
+                <tr>
+                    <td>第2周</td>
+                    <td>css</td>
+                    <td>未进行</td>
+                    <td>未知</td>
+                </tr>
+            </tbody>
+        </table>
+        <section id="contact">
+            <h2>联系我</h2>
+            <form action="#">
+                <p>
+                    <label for="name">姓名：</label>
+                    <input type="text" id="name" name="name" required>
+                </p>
+                <p>
+                    <label for="email">邮箱：</label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p>
+                    <label for="message">留言：</label>
+                    <textarea id="message" name="message"></textarea>
+                </p>
+                <p>
+                    <input type="submit" value="提交">
+                </p>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>版权所有&copy;冯雪豪</p>
+    </footer>
+</body>
+
+</html>
